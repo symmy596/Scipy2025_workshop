@@ -1,20 +1,20 @@
 # Geospatial data manipulation and visualisation
 
-![alt text](https://github.com/symmy596/Scipy2025/blob/main/scipy_image.png) 
+![alt text](https://github.com/symmy596/Scipy2025_workshop/blob/main/scipy_image.png) 
 
 ## Download Tutorial Materials
 
 This GitHub repository is all that is needed in terms of tutorial content. The simplest solution is to download the material using this link:
 
-https://github.com/symmy596/Scipy2025/archive/refs/heads/main.zip
+https://github.com/symmy596/Scipy2025_workshop/archive/refs/heads/main.zip
 
 If you are familiar with Git, you can also clone this repository with:
 
 ```
-$ git clone https://github.com/symmy596/Scipy2025.git
+$ git clone https://github.com/symmy596/Scipy2025_workshop.git
 ```
 
-It will create a new folder named `Scipy2025` with all the content you will need.
+It will create a new folder named `Scipy2025_workshop` with all the content you will need.
 
 There are a number of datasets required for these tutorials. These will need to all be downloaded prior to the tutorial and placed in the resources folder.
 
