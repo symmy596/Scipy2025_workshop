@@ -52,6 +52,7 @@ The following libraries are required to run the workshop
 - rioxarray==0.11.1
 - gdal==3.5.2
 - xarray==2022.9.0
+- pyarrow==9.0.0
 
 If you are using Anaconda, you can use the Anaconda Prompt (Windows) or Terminal.app (macOS) to create an environment with the necessary packages:
 
@@ -62,7 +63,7 @@ If you are using Anaconda, you can use the Anaconda Prompt (Windows) or Terminal
 2. Create a new Anaconda virtual environment by executing the below command in the application window you opened in step 1 above.
 
     ```
-    conda create -n pythonmaps-tutorial jupyter geopandas==0.10.2 pandas==1.4.2 numpy==1.21.5 shapely==1.8.0 matplotlib==3.5.1 cartopy==0.20.2 rasterio==1.2.10 rioxarray==0.11.1 xarray==2022.9.0
+    conda create -n pythonmaps-tutorial jupyter geopandas==0.10.2 pandas==1.4.2 numpy==1.21.5 shapely==1.8.0 matplotlib==3.5.1 cartopy==0.20.2 rasterio==1.2.10 rioxarray==0.11.1 xarray==2022.9.0 pyarrow==9.0.0
     ```
 
 3. To test your installation, please execute the `check_env.py` script in the environment where you have installed the requirements. If you created an Anaconda environment using the instructions above, keep the application window that you opened in step 1 active (or launch the platform specific application again -- Anaconda Prompt for Windows or Terminal.app for macOS), navigate to where you have this GitHub repository, and type:
