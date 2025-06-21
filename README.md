@@ -1,6 +1,6 @@
 # Geospatial data manipulation and visualisation
 
-![alt text](https://github.com/symmy596/Scipy2025_workshop/blob/main/scipy_image.png) 
+![alt text](https://github.com/symmy596/Scipy2025_workshop/blob/main/resources/assets/river_topography.png) 
 
 ## Download Tutorial Materials
 
