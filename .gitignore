@@ -6,3 +6,4 @@ resources/data/ETOPO1_Bed_g_geotiff.tif
 resources/data/gm_ve_v1.tif
 resources/data/a00000009*
 resources/data/rivers.geojson
+slides/reveal.js
