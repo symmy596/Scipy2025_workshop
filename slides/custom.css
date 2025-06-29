@@ -17,3 +17,11 @@ background: #FCF6F5FF;
 .reveal table th, .reveal table td {
 color: #FCF6F5FF;
 }
+/* shrink all pandas tables so rows stay on one line */
+.reveal .slides table.dataframe,
+.reveal .slides table.dataframe th,
+.reveal .slides table.dataframe td {
+  font-size: 8px !important;      /* or pick 7px, 0.6em, whatever you need */
+  line-height: 1.2 !important;
+  padding: 0.2em 0.4em !important; /* tighten padding too */
+}
