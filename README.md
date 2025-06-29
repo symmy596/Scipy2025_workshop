@@ -18,6 +18,10 @@ It will create a new folder named `Scipy2025_workshop` with all the content you 
 
 There are a number of datasets required for these tutorials. These will need to all be downloaded prior to the tutorial and placed in the resources folder.
 
+## Data
+
+Downsampled data that will allow you to complete the tutorial can be found in the resources/data directory. These were generated from the datasets listed below. With a sufficiently powerful laptop you will be able to use these datasets to generate more detailed versions of the maps that we will make in this tutorial. However for ease and simplicity, please feel free to use the 
+downsampled data in the repo. 
 
 #### Tutorial 1 Vector Data
 
