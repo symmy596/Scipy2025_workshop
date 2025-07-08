@@ -1,6 +1,6 @@
 # Geospatial data manipulation and visualisation
 
-![alt text](https://github.com/symmy596/Scipy2025_workshop/blob/main/resources/assets/river_topography.png) 
+![alt text](https://github.com/symmy596/Scipy2025_workshop/blob/main/resources/assets/river_topography.png)
 
 ## Download Tutorial Materials
 
@@ -20,8 +20,8 @@ There are a number of datasets required for these tutorials. These will need to 
 
 ## Data
 
-Downsampled data that will allow you to complete the tutorial can be found in the `resources/data directory`. These were generated from the datasets listed below. With a sufficiently powerful laptop you will be able to use these datasets to generate more detailed versions of the maps that we will make in this tutorial. However for ease and simplicity, please feel free to use the 
-downsampled data in the repo. 
+Downsampled data that will allow you to complete the tutorial can be found in the `resources/data directory`. These were generated from the datasets listed below. With a sufficiently powerful laptop you will be able to use these datasets to generate more detailed versions of the maps that we will make in this tutorial. However for ease and simplicity, please feel free to use the
+downsampled data in the repo.
 
 #### Tutorial 1 Vector Data
 
@@ -58,11 +58,22 @@ The following libraries are required to run the workshop
 - xarray==2022.9.0
 - pyarrow==9.0.0
 
+#### Pixi
+
+1. Install [Pixi](https://pixi.sh/)
+2. Run
+
+```
+pixi run start
+```
+
+#### Conda
+
 If you are using Anaconda, you can use the Anaconda Prompt (Windows) or Terminal.app (macOS) to create an environment with the necessary packages:
 
 1. Open the Anaconda Prompt or Terminal.app using the below instructions:
     - **Windows**: Click Start and search for "Anaconda Prompt". Click on the application to launch a new Anaconda Prompt window.
-    - **macOS**: Open Spotlight Search (using Cmd+Space) and type "Terminal.app". Click on the application to launch a new Terminal.app window.   
+    - **macOS**: Open Spotlight Search (using Cmd+Space) and type "Terminal.app". Click on the application to launch a new Terminal.app window.
 
 2. Create a new Anaconda virtual environment by executing the below command in the application window you opened in step 1 above.
 
