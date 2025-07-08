@@ -1,0 +1,28 @@
+[workspace]
+authors = ["Adam Symington <symmy586@gmail.com>"]
+channels = ["conda-forge"]
+name = "Scipy2025_workshop"
+platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
+version = "0.1.0"
+
+[tasks.check-env]
+description = "Check environment"
+cmd = "python check_env.py"
+
+[tasks.start]
+description = "Get started"
+cmd = "jupyter lab"
+
+[dependencies]
+geopandas = ">=0.10.2,<1"
+pandas = ">=1.4.2,<2"
+numpy = ">=1.21.5,<2"
+shapely = ">=1.8.0,<2"
+matplotlib = ">=3.5.1,<4"
+cartopy = ">=0.20.2,<0.21"
+rasterio = ">=1.2.10,<2"
+rioxarray = ">=0.11.1,<0.12"
+xarray = ">=2022.9.0,<2023"
+pyarrow = ">=9.0.0,<10"
+notebook = ">=7.4.4,<8"
+jupyterlab = ">=4.4.4,<5"

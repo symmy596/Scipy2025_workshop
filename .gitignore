@@ -7,3 +7,5 @@ resources/data/gm_ve_v1.tif
 resources/data/a00000009*
 resources/data/rivers.geojson
 slides/reveal.js
+# pixi environments
+.pixi
